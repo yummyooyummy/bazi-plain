@@ -1,0 +1,16 @@
+{
+  "schema_version": "pilot-1",
+  "public_only": true,
+  "cases": [
+    {"id":"M01","kind":"classical","pillars":["戊戌","乙卯","丙午","乙亥"],"source":"子平真诠·论印绶","source_url":"https://8s8s.com/text/literature/77/18065.485930.html","checks":["印格用食泄秀，不自动枭夺食"],"label_policy":"selected_text"},
+    {"id":"M02","kind":"classical","pillars":["己未","己巳","丁未","辛丑"],"source":"子平真诠·论建禄月劫","source_url":"https://8s8s.com/text/literature/15/18075.516984.html","checks":["月劫别取食财","巳丑拱酉","已巳/己巳异文保留"],"label_policy":"selected_text_with_variant"},
+    {"id":"M03","kind":"classical","pillars":["戊辰","戊午","戊申","己未"],"source":"滴天髓阐微·衰旺","source_url":"https://zh.wikisource.org/w/index.php?title=滴天髓闡微&oldid=2600158","checks":["偏强厚土用金","不按严格从强","三线分列"],"label_policy":"selected_text"},
+    {"id":"M04","kind":"classical","pillars":["丙午","甲午","丙午","甲午"],"source":"滴天髓阐微·从象","source_url":"https://zh.wikisource.org/w/index.php?title=滴天髓闡微&oldid=2600158","checks":["原著从强","无财官气","藏己伤官不等于食神透根出口"],"label_policy":"selected_text"},
+    {"id":"M05","kind":"classical","pillars":["丙戌","壬辰","癸巳","甲寅"],"source":"滴天髓阐微·从象","source_url":"https://zh.wikisource.org/w/index.php?title=滴天髓闡微&oldid=2600158","checks":["原著从官之势与严格法并列","保留壬劫、辰藏癸等事实"],"label_policy":"disputed_do_not_force_unique"},
+    {"id":"M06","kind":"classical","pillars":["丁丑","壬寅","丙申","壬辰"],"source":"滴天髓阐微·假从","source_url":"https://zh.wikisource.org/w/index.php?title=滴天髓闡微&oldid=2600158","checks":["假从而非字面全无印比","冲根效力不能一律全删"],"label_policy":"selected_text_with_counterevidence"},
+    {"id":"M07","kind":"classical","pillars":["壬子","辛亥","癸丑","壬子"],"source":"滴天髓阐微·形象","source_url":"https://zh.wikisource.org/w/index.php?title=滴天髓闡微&oldid=2600158","checks":["润下","亥藏甲、丑藏己不删","原局无食伤标签指无有效泄化","火忌只限本例条件"],"label_policy":"user_confirmed_conditional"},
+    {"id":"M08","kind":"classical","pillars":["乙丑","甲申","甲辰","己巳"],"source":"滴天髓阐微·化象","source_url":"https://zh.wikisource.org/w/index.php?title=滴天髓闡微&oldid=2600158","checks":["任氏真化与严格季令法并列","五合不等于程序已化","不删原根"],"label_policy":"disputed_do_not_force_unique"},
+    {"id":"S01","kind":"synthetic","input":{"date":"2000-01-01","time":"12:00","sex":"male","longitude":120,"timezone":"Asia/Shanghai","as_of":"2026-11-09"},"context":{"synthetic":true,"confirmed_age":26,"age_basis":"本地合成输入与固定as_of的已知年龄，非八字推导","time_unconfirmed":false},"checks":["默认真太阳时","无时辰备选","一般年龄体检与命盘分开"],"label_policy":"program_facts_only"},
+    {"id":"S02","kind":"synthetic","input":{"date":"2000-01-01","time":"13:00","sex":"male","longitude":120,"timezone":"Asia/Shanghai","as_of":"2026-11-09"},"context":{"synthetic":true,"time_unconfirmed":true,"confirmation_status":"合成场景：尚未确认主盘或备选时柱；没有用户回复或拒答"},"checks":["时辰边界<=30分钟","保留程序给出的全部备选","不擅定时柱与相关栏目"],"label_policy":"program_facts_only"}
+  ]
+}

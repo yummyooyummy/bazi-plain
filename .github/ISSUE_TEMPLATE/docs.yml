@@ -1,0 +1,16 @@
+name: 文档或安装问题 / Docs or install problem
+description: 看不懂的说明、装不上、命令跑不通
+labels: [documentation]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 遇到了什么 / What happened
+      description: 哪一页、哪条命令，报错原文（请删掉报错里的个人路径和生日）
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 环境 / Environment
+      placeholder: 例如 macOS 15 / Windows 11，Python 3.12，Claude Code 或 Codex

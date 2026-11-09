@@ -1,0 +1,48 @@
+schema_version: '0.1'
+scope: public_domain_pillars_only
+cases:
+  - id: DTS-SW-01
+    title: 衰旺·厚土用金
+    pillars: [戊辰, 戊午, 戊申, 己未]
+    source: https://zh.wikisource.org/zh-hant/滴天髓闡微#十七、衰旺
+    label_status: reviewed_against_selected_text
+    expected:
+      required_favorable: [金]
+      forbidden_primary_patterns: [从强]
+    rationale: 原例明言其用在金；按本方案，不把土字多直接判成从强。
+  - id: DTS-GZ-01
+    title: 干支总论·地支有申
+    pillars: [戊申, 戊午, 戊戌, 戊午]
+    source: https://zh.wikisource.org/zh-hant/滴天髓闡微#九、干支总论
+    label_status: reviewed_against_selected_text
+    expected:
+      required_favorable: [金]
+    rationale: 原例明言用金，并讨论申中水的条件；不能把有申与全火土的前例混淆。
+  - id: ZP-JL-01
+    title: 建禄月劫·化劫为财
+    pillars: [己未, 己巳, 丁未, 辛丑]
+    source: https://8s8s.com/text/literature/15/18075.516984.html
+    label_status: reviewed_with_transcription_note
+    expected:
+      required_method_labels: [化劫为财]
+    transcription_note: 所选电子本文字作已巳；程序输入沿用用户方案的合法月柱己巳，未改动古籍原文收藏。
+    rationale: 原例以巳丑会金讨论化劫为财；程序只报结构，合化的解释条件另列，不由缺酉就抹掉原例语境。
+  - id: DTS-XX-01
+    title: 形象·润下
+    pillars: [壬子, 辛亥, 癸丑, 壬子]
+    source: https://zh.wikisource.org/zh-hant/滴天髓闡微#十、形象
+    label_status: reviewed_with_user_confirmed_condition
+    expected:
+      required_method_labels: [润下]
+      required_conditional_judgments:
+        - condition: 原局无食伤
+          element: 火
+          judgment: 不利
+          scope: 本例
+      forbidden_generalizations:
+        - pattern: 润下
+          element: 火
+          judgment: 不利
+          scope: 全部润下盘
+    rationale: 用户已确认按原文补条件；该例的火运不利须连同原局无食伤解释，不能推出所有润下盘一律忌火。
+    confirmed_on: '2026-11-09'

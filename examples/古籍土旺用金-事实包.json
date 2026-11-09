@@ -1,0 +1,345 @@
+{
+  "schema_version": "0.1",
+  "status": "facts_only",
+  "source": "DTS-SW-01",
+  "facts": {
+    "day_master": "戊",
+    "pillars": [
+      {
+        "position": "年",
+        "ganzhi": "戊辰",
+        "stem_element": "土",
+        "branch_element": "土",
+        "stem_ten_god": "比肩",
+        "hidden_stems": [
+          {
+            "stem": "戊",
+            "element": "土",
+            "ten_god": "比肩",
+            "own_growth_in_branch": "冠带"
+          },
+          {
+            "stem": "乙",
+            "element": "木",
+            "ten_god": "正官",
+            "own_growth_in_branch": "冠带"
+          },
+          {
+            "stem": "癸",
+            "element": "水",
+            "ten_god": "正财",
+            "own_growth_in_branch": "养"
+          }
+        ],
+        "growth_against_day_master": "冠带",
+        "in_day_void": false,
+        "own_xunkong": [
+          "戌",
+          "亥"
+        ]
+      },
+      {
+        "position": "月",
+        "ganzhi": "戊午",
+        "stem_element": "土",
+        "branch_element": "火",
+        "stem_ten_god": "比肩",
+        "hidden_stems": [
+          {
+            "stem": "丁",
+            "element": "火",
+            "ten_god": "正印",
+            "own_growth_in_branch": "临官"
+          },
+          {
+            "stem": "己",
+            "element": "土",
+            "ten_god": "劫财",
+            "own_growth_in_branch": "临官"
+          }
+        ],
+        "growth_against_day_master": "帝旺",
+        "in_day_void": false,
+        "own_xunkong": [
+          "子",
+          "丑"
+        ]
+      },
+      {
+        "position": "日",
+        "ganzhi": "戊申",
+        "stem_element": "土",
+        "branch_element": "金",
+        "stem_ten_god": "比肩",
+        "hidden_stems": [
+          {
+            "stem": "庚",
+            "element": "金",
+            "ten_god": "食神",
+            "own_growth_in_branch": "临官"
+          },
+          {
+            "stem": "壬",
+            "element": "水",
+            "ten_god": "偏财",
+            "own_growth_in_branch": "长生"
+          },
+          {
+            "stem": "戊",
+            "element": "土",
+            "ten_god": "比肩",
+            "own_growth_in_branch": "病"
+          }
+        ],
+        "growth_against_day_master": "病",
+        "in_day_void": false,
+        "own_xunkong": [
+          "寅",
+          "卯"
+        ]
+      },
+      {
+        "position": "时",
+        "ganzhi": "己未",
+        "stem_element": "土",
+        "branch_element": "土",
+        "stem_ten_god": "劫财",
+        "hidden_stems": [
+          {
+            "stem": "己",
+            "element": "土",
+            "ten_god": "劫财",
+            "own_growth_in_branch": "冠带"
+          },
+          {
+            "stem": "丁",
+            "element": "火",
+            "ten_god": "正印",
+            "own_growth_in_branch": "冠带"
+          },
+          {
+            "stem": "乙",
+            "element": "木",
+            "ten_god": "正官",
+            "own_growth_in_branch": "养"
+          }
+        ],
+        "growth_against_day_master": "衰",
+        "in_day_void": false,
+        "own_xunkong": [
+          "子",
+          "丑"
+        ]
+      }
+    ],
+    "day_void_branches": [
+      "寅",
+      "卯"
+    ],
+    "visible_element_counts": {
+      "木": 0,
+      "火": 1,
+      "土": 6,
+      "金": 1,
+      "水": 0
+    },
+    "counts_are_not_strength_weights": true,
+    "pattern_observations": {
+      "support_stems_including_hidden": [
+        {
+          "position": "年",
+          "layer": "明干",
+          "stem": "戊",
+          "ten_god": "比肩"
+        },
+        {
+          "position": "年",
+          "layer": "藏干",
+          "stem": "戊",
+          "ten_god": "比肩"
+        },
+        {
+          "position": "月",
+          "layer": "明干",
+          "stem": "戊",
+          "ten_god": "比肩"
+        },
+        {
+          "position": "月",
+          "layer": "藏干",
+          "stem": "丁",
+          "ten_god": "正印"
+        },
+        {
+          "position": "月",
+          "layer": "藏干",
+          "stem": "己",
+          "ten_god": "劫财"
+        },
+        {
+          "position": "日",
+          "layer": "藏干",
+          "stem": "戊",
+          "ten_god": "比肩"
+        },
+        {
+          "position": "时",
+          "layer": "明干",
+          "stem": "己",
+          "ten_god": "劫财"
+        },
+        {
+          "position": "时",
+          "layer": "藏干",
+          "stem": "己",
+          "ten_god": "劫财"
+        },
+        {
+          "position": "时",
+          "layer": "藏干",
+          "stem": "丁",
+          "ten_god": "正印"
+        }
+      ],
+      "wealth_officer_stems_including_hidden": [
+        {
+          "position": "年",
+          "layer": "藏干",
+          "stem": "乙",
+          "ten_god": "正官"
+        },
+        {
+          "position": "年",
+          "layer": "藏干",
+          "stem": "癸",
+          "ten_god": "正财"
+        },
+        {
+          "position": "日",
+          "layer": "藏干",
+          "stem": "壬",
+          "ten_god": "偏财"
+        },
+        {
+          "position": "时",
+          "layer": "藏干",
+          "stem": "乙",
+          "ten_god": "正官"
+        }
+      ],
+      "same_element_hidden_positions": [
+        "年",
+        "月",
+        "日",
+        "时"
+      ],
+      "note": "仅报告存在与否；藏而有气、是否得令有力、是否从格不能由字数决定。"
+    },
+    "relations": [
+      {
+        "kind": "同干",
+        "positions": [
+          "年",
+          "月"
+        ],
+        "values": [
+          "戊",
+          "戊"
+        ]
+      },
+      {
+        "kind": "同干夹字候选",
+        "positions": [
+          "年",
+          "月"
+        ],
+        "values": [
+          "戊辰",
+          "戊午"
+        ],
+        "missing": "巳",
+        "counts_as_present": false
+      },
+      {
+        "kind": "同干",
+        "positions": [
+          "年",
+          "日"
+        ],
+        "values": [
+          "戊",
+          "戊"
+        ]
+      },
+      {
+        "kind": "拱合候选",
+        "positions": [
+          "年",
+          "日"
+        ],
+        "values": [
+          "辰",
+          "申"
+        ],
+        "missing": "子",
+        "same_stem": true,
+        "transformed": false
+      },
+      {
+        "kind": "同干",
+        "positions": [
+          "月",
+          "日"
+        ],
+        "values": [
+          "戊",
+          "戊"
+        ]
+      },
+      {
+        "kind": "同干夹字候选",
+        "positions": [
+          "月",
+          "日"
+        ],
+        "values": [
+          "戊午",
+          "戊申"
+        ],
+        "missing": "未",
+        "counts_as_present": false
+      },
+      {
+        "kind": "六合",
+        "positions": [
+          "月",
+          "时"
+        ],
+        "values": [
+          "午",
+          "未"
+        ]
+      }
+    ],
+    "four_pillars": [
+      "戊辰",
+      "戊午",
+      "戊申",
+      "己未"
+    ]
+  },
+  "luck": null,
+  "annual": [],
+  "boundaries": [],
+  "alternative_charts": [],
+  "warnings": [
+    "仅有四柱，未核验出生排盘；不能反推生日、起运和历年交运时刻。"
+  ],
+  "report_gate": {
+    "missing_calendar_evidence": true
+  },
+  "privacy": {
+    "raw_birth_date_included": false,
+    "local_calculation_only": true
+  }
+}

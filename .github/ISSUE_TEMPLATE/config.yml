@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 隐私提醒 / Privacy note
+    url: https://github.com/yummyooyummy/bazi-plain/blob/main/docs/privacy.md
+    about: 请不要在 issue 里贴真实生日。Please do not post real birth data.

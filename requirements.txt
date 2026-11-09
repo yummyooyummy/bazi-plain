@@ -1,0 +1,3 @@
+lunar-python==1.4.9
+astronomy-engine==2.1.19
+tzdata==2026.6

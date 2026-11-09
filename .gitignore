@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.firecrawl/
+*.pyc
+*.egg-info/
+dist/
+build/
+private/
+local-tests/
+reports/
+*_private.json
+*_private.yaml
+.DS_Store
+
+# local secrets and private material
+.env
+.env.*
+*.key
+*.pem
+secrets/
+*_audit.json

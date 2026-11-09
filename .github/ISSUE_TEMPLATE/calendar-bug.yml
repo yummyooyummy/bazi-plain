@@ -1,0 +1,44 @@
+name: 排盘结果有误 / Calendar fact bug
+description: 程序算出的四柱、节气、真太阳时、大运等与核对结果不一致
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **请不要填写任何真实人物的生日（包括你自己的）。**
+        请用古籍四柱（`--chart`），或者构造一个能触发同样情况的合成时间，比如同样落在晚子时、同样离节气交界几分钟。
+        Please do not post real birth data. Use classical pillars or a synthetic date that triggers the same case.
+  - type: textarea
+    id: input
+    attributes:
+      label: 合成输入 / Synthetic input
+      description: 能复现问题的 JSON 输入，或 `--chart` 的四柱
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 程序输出 / Actual output
+      description: 只贴相关字段即可，例如 day_convention_comparison 或 boundaries
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你认为正确的结果和依据 / Expected result and source
+      description: 例如用哪个万年历、哪种早晚子口径、哪份节气表核对
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 版本 / Version
+      description: git commit 或 release 号，以及 Python 版本
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 确认 / Confirm
+      options:
+        - label: 上面没有任何真实人物的生日 / No real person's birth data above
+          required: true

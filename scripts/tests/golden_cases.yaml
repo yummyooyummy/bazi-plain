@@ -1,0 +1,15 @@
+# Synthetic calendar inputs: no person's birthday and no real-person report.
+# Six private acceptance cases are loaded from an external local fixture.
+cases:
+  - id: synthetic-civil-noon
+    input: {date: '2000-01-01', time: '12:00', sex: male, longitude: 120, timezone: Asia/Shanghai, clock_mode: civil, as_of: '2026-11-09'}
+    expected: [己卯, 丙子, 戊午, 戊午]
+  - id: synthetic-late-zi-split
+    input: {date: '2000-01-01', time: '23:30', sex: male, longitude: 120, timezone: Asia/Shanghai, clock_mode: civil, zi_method: split, as_of: '2026-11-09'}
+    expected: [己卯, 丙子, 戊午, 甲子]
+  - id: synthetic-late-zi-23
+    input: {date: '2000-01-01', time: '23:30', sex: male, longitude: 120, timezone: Asia/Shanghai, clock_mode: civil, zi_method: '23', as_of: '2026-11-09'}
+    expected: [己卯, 丙子, 己未, 甲子]
+  - id: synthetic-early-zi
+    input: {date: '2000-01-02', time: '00:30', sex: male, longitude: 120, timezone: Asia/Shanghai, clock_mode: civil, as_of: '2026-11-09'}
+    expected: [己卯, 丙子, 己未, 甲子]
